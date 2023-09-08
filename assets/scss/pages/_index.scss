@@ -1,3 +1,23 @@
-.index-title {
-  font-size: 100px;
+thead {
+  span.material-icons {
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+tbody {
+  span.material-icons {
+    cursor: pointer;
+  }
+}
+
+.page-link {
+  &:hover {
+    background-color: #198754;
+    color: #fff !important;
+  }
+}
+
+.new-admin {
+  cursor: pointer;
 }
